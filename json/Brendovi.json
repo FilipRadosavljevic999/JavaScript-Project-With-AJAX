@@ -1,0 +1,27 @@
+[
+    {
+        "idBrend":1,
+        "ImeBrenda":"Hugo Boss"
+    },
+    {
+        "idBrend":2,
+        "ImeBrenda":"Seiko"
+    },
+    {
+        "idBrend":3,
+        "ImeBrenda":"Sakagen"
+    },
+    {
+        "idBrend":4,
+        "ImeBrenda":"Bulova"
+    },
+    {
+        "idBrend":5,
+        "ImeBrenda":"CASIO"
+    },
+    {
+        "idBrend":6,
+        "ImeBrenda":"Bering"
+    }
+
+]

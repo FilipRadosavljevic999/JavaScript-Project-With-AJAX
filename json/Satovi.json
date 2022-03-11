@@ -1,0 +1,187 @@
+[
+    {
+        "id":1,
+        "Slika":{
+            "src":"HugoBoss1.jpg",
+            "alt":"sat Seiko"
+        },
+        "Brend":{
+            "idBrend":1,
+            "ImeBrenda":"Hugo Boss",
+            "naziv":"HUGO BOSS 1513709"
+        },
+        "Cena":84000,
+        "pol":{
+            "idPol":1,
+            "Imepola":"Muški"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"koža",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":44,
+        "Prikaz":"Analogni",
+        "Funkcije":"Datum"
+    },
+    {
+        "id":2,
+        "Slika":{
+            "src":"HugoBoss2.jpg",
+            "alt":"sat Seiko"
+        },
+        "Brend":{
+            "idBrend":1,
+            "ImeBrenda":"Hugo Boss",
+            "naziv":"HUGO BOSS 1513477"
+        },
+        "Cena":53000,
+        "pol":{
+            "idPol":1,
+            "Imepola":"Muški"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"Hirurški čelik",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":47,
+        "Prikaz":"Analogni",
+        "Funkcije":"Datum"
+    },
+    
+    {
+        "id":4,
+        "Slika":{
+            "src":"seiko2.jpg",
+            "alt":"sat Seiko"
+        },
+        "Brend":{
+            "idBrend":2,
+            "ImeBrenda":"Seiko",
+            "naziv":"SEIKO SSC703P1"
+        },
+        "Cena":57000,
+        "pol":{
+            "idPol":1,
+            "Imepola":"Muški"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"Hirurški čelik",
+        "Mehanizam":"solar",
+        "Prečnik":44,
+        "Prikaz":"Analogni",
+        "Funkcije":"Datum"
+    },
+    {
+        "id":5,
+        "Slika":{
+            "src":"seiko3.jpg",
+            "alt":"sat Seiko"
+        },
+        "Brend":{
+            "idBrend":2,
+            "ImeBrenda":"Seiko",
+            "naziv":"SEIKO SSA409J1"
+        },
+        "Cena":57000,
+        "pol":{
+            "idPol":1,
+            "Imepola":"Muški"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"koža",
+        "Mehanizam":"Aautomatik",
+        "Prečnik":40,
+        "Prikaz":"Analogni",
+        "Funkcije":"Datum"
+    },
+    {
+        "id":6,
+        "Slika":{
+            "src":"sakagen1.jpg",
+            "alt":"sat sakagen"
+        },
+        "Brend":{
+            "idBrend":3,
+            "ImeBrenda":"Sakagen",
+            "naziv":"SKAGEN SKW6499"
+        },
+        "Cena":19000,
+        "pol":{
+            "idPol":2,
+            "Imepola":"Ženski"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"koža",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":42,
+        "Prikaz":"Analogni",
+        "Funkcije":"Datum"
+    },
+    {
+        "id":7,
+        "Slika":{
+            "src":"bulova1.jpg",
+            "alt":"sat bulova"
+        },
+        "Brend":{
+            "idBrend":4,
+            "ImeBrenda":"Bulova",
+            "naziv":"BULOVA 98L246"
+        },
+        "Cena":69000,
+        "pol":{
+            "idPol":2,
+            "Imepola":"Ženski"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"Hirurški čelik",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":32,
+        "Prikaz":"Analogni",
+        "Funkcije":"Nema"
+    },
+    {
+        "id":8,
+        "Slika":{
+            "src":"Casio.jpg",
+            "alt":"sat bulova"
+        },
+        "Brend":{
+            "idBrend":5,
+            "ImeBrenda":"CASIO",
+            "naziv":"ASIO DW-6900BMC"
+        },
+        "Cena":14000,
+        "pol":{
+            "idPol":3,
+            "Imepola":"Unisex"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"Guma",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":38,
+        "Prikaz":"Digitalni",
+        "Funkcije":"Datum,Dan"
+    },
+    {
+        "id":9,
+        "Slika":{
+            "src":"bering1.jpg",
+            "alt":"sat bering"
+        },
+        "Brend":{
+            "idBrend":6,
+            "ImeBrenda":"Bering",
+            "naziv":"BERING 11139-504"
+        },
+        "Cena":10000,
+        "pol":{
+            "idPol":3,
+            "Imepola":"Unisex"
+        },
+        "Kuciste":"Hirurški čelik",
+        "narukvica":"Hirurški čelik",
+        "Mehanizam":"Kvarcni",
+        "Prečnik":44,
+        "Prikaz":"Analogni",
+        "Funkcije":"Nema"
+    }
+]

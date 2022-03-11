@@ -1,0 +1,15 @@
+[
+    {
+        "idPol":1,
+        "Imepola":"Muški"
+    },
+    {
+        "idPol":2,
+        "Imepola":"Ženski"
+
+    },
+    {
+        "idPol":3,
+        "Imepola":"Unisex"
+    }
+]
