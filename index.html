@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Prodavnica,Satovi,Balknaska 24">
+    <meta name="author" content="Filip Radosavljevic">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    <link rel="shortcut icon"  href="img/ikonica.ico" />
+    
+    <title>MobiShop</title>
+</head>
+<body>
+    <div id="zaglavlje">
+             
+        <div id="meni">
+            <ul id="lista1">
+                <li ><a href="#">Meni</a> 
+                    <ul id="lista2">
+                        
+                    </ul>
+                    
+                </li>
+            </ul>
+                
+        </div>
+    </div>
+    <div id='baner'>
+        <img src="img/gshock.jpg" alt="slika_baner" id="slikabaner"/>
+    </div>
+        
+
+    <div id="NaslovProdavnica">
+        <h1 class="glavno">Proizvodi</h1>
+    </div>
+    <div id="prodaja">
+        <div id="sredina">
+        
+        </div>
+        <div id='prodaja1'>
+            <div class="pretraga">
+                <h4>Sortiranje</h4>
+                <div class="sort">
+                
+                    <select id="sortiranjeProizvoda" class="custom-select mr-sm-2">
+                        <option>Sortiranje</option>
+                        <option>Naziv(rastuće)</option>
+                        <option>Naziv(opadajuće)</option>
+                        <option>Cena(rastuće)</option>
+                        <option>Cena(opadajuće)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="pretraga">
+                <h4>Filtriranje</h4>
+                <div id="filteri">
+                    <div class="formaPolja formasort">
+                        <select class="custom-select my-1 mr-sm-2 formaFilter" id="brend">
+                        
+                        </select>
+                    </div>
+                    <div class="formaPolja formasort">
+                        <select class="custom-select my-1 mr-sm-2 formaFilter" id="Pol">
+                        
+                        </select>
+                    </div>
+                    <div class="form-group formaPolja">
+                        <input type="text" class="form-control polja" id="minCena" aria-describedby="emailHelp" placeholder="Unesi minimalnu cenu">
+                        <span></span>
+                    </div>
+                    <div class="form-group formaPolja">
+                        <input type="text" class="form-control polja" id="maxCena" aria-describedby="emailHelp" placeholder="Unesi maksimalnu cenu">
+                        <span></span>
+                    </div>
+                    
+                
+                    <div class="form-group formaDugme" >
+                        <input type="button" id="DugmeFilter" class="btn btn-secondary" value="Filtriraj"/>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        
+        </div>
+    
+    
+    </div>
+    <div id="forma">
+        <div id="NaslovPorudzbina">
+            <h3 class="brendnaslov">Porudžbina</h3>
+        </div>
+    <form method="post" action="1.php" id='naruci'>
+        <div class="formaLista1">
+            <span>Izaberite artikl</span>
+            <select id="listaArtikl">
+                
+            </select>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="ime" aria-describedby="emailHelp" placeholder="Unesite ime...">
+            <span></span>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="prezime" aria-describedby="emailHelp" placeholder="Unesite prezime...">
+            <span></span>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="adresa" aria-describedby="emailHelp" placeholder="Unesite adresu...">
+            <span></span>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="kontakt" aria-describedby="emailHelp" placeholder="Unesite broj telefona...">
+            <span></span>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="grad" aria-describedby="emailHelp" placeholder="Unesite naziv grada...">
+            <span></span>
+        </div>
+        <div class="form-group formaPolja1">
+            <input type="text" class="form-control polja" id="postankiBroj" aria-describedby="emailHelp" placeholder="Unesite postanski broj..."">
+            <span></span>
+        </div>
+      
+        <div class="formaLista1">
+            <span>Izaberite način plaćanja</span>
+            <select id="lista">
+                
+            </select>
+        </div>
+        <div class="formaDugme1">
+            <input type="button" class="btn btn-secondary " id="dugmeForma" name="dugme" value="Naruči"/>
+            
+        </div>
+        <div class="formaPolja1" id="listaGreske">
+            <ul>
+    
+            </ul>
+        </div>
+    </form>
+    
+    </div>   
+    <div id="AdresaPRodavnice">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.536
+		948480363!2d20.4574210150479!3d44.8106246848358!2m3!1f0!2f0!3f0!3m
+		2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aaebc6241bd%3A0x33aad42c1266e277!2sBalkanska+24%2C+Beo
+		grad!5e0!3m2!1sen!2srs!4v1547760037315">
+        </iframe>
+        <div id="podaci">
+            <p>Adresa:Balkanska 24</p>
+            <p>Radno vreme:10:00-19:00</p>
+            <p>Subota:10:00-16:00</p>
+            <p>Kontakt tel:063/008-007</p>
+            <p>Email:Mobi.Planeta@gmail.com</p>
+        </div>
+    </div>  
+    <div id="autor">
+        <figure>
+            <img src="img/autor.jpg" alt="slika autor"/>
+            <figcaption>Filip Radosavljevic 74/18</figcaption>
+        </figure>
+    </div>
+    
+    <div>
+        <a href="#" id="dugmeGore"><i class='fas fa-arrow-circle-up' id="strelica"></i></a>
+    </div>
+    <footer>
+        <p><a href="#" id="Autorblok">Autor</a></p>
+        <p ><a href="dokumentacija.pdf">Dokumentacija</a></p>
+        <p><a href="sitemap.xml">sitemap</a></p>
+    </footer>
+
+    
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>
