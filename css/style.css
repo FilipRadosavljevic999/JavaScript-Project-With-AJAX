@@ -1,0 +1,509 @@
+/*<!-- <div class="blok">
+            <img src="img/2.jpg" alt="slika" class="slika"/><br/>
+            <h1>SAMSUNG GALAXY A51</h1>
+            <h2>44.999RSD</h2>
+            <div id="dugmici">
+                <button>Citaj</button>
+                <button>Citaj</button>
+            </div>
+            <p class="sakriven">Dijagonala ekrana:6.5",
+                RAM memorija:4GB,
+                Zadnja kamera:48.0Mpix,
+                Interna memorija:128GB,
+                Kapacitet baterije:4000mAh
+            </p> -->
+            <!-- <p class="sakriven">RAM memorija:4GB</p>
+            <p class="sakriven">Zadnja kamera:48.0 Mpix </p>
+            <p class="sakriven">Interna memorija:128 GB</p>
+            <p class="sakriven">Kapacitet baterije:4000 mAh</p> -->*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+h1{
+    font-size: 2rem;
+    margin:1% auto;
+    color:#B8B8B8;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*MENI*/
+#zaglavlje{
+    width: 100%;
+    height: 70px;
+   /* background-image: url("../img/zaglavlje1.png");*/
+    background-color: #3a3d42;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: #B8B8B8;
+}
+#meni{
+	position: absolute;
+	top:1.1rem;
+    left:1.1rem; 
+    width: 15%;
+    border-radius: 10%;
+   /* background-color:  #A1A1A1;*/
+}
+#meni li ul{
+    position: absolute;
+   /* background-color:  #A1A1A1;*/
+    
+    /*#2E2D2D*/
+}
+#meni a {
+	padding: 3% 3% ;
+	display:block;
+	color:#B8B8B8;
+	width:100%;
+}
+ #lista2 li{
+	font-size: 1.1rem;
+	background-color:  #3a3d42;
+	
+    width:100%;
+    border-bottom:3px solid #B8B8B8;
+	
+}
+#lista1{
+    width:100%;
+    border-radius: 10%;
+    left:0;
+    background-color:  #3a3d42;
+}
+#lista2{
+    width: 100%;
+    margin-left:0px;
+    background-color:  #3a3d42;
+    
+}
+#lista2 li{
+    font-size: 1.1rem;
+    background-color:  #3a3d42;
+}
+#lista1 ul{
+    left:0;
+    background-color:  #3a3d42;
+    
+}
+#lista1  li{
+    border-radius: 15%;
+    border:3px solid #B8B8B8
+}
+#lista1 li{
+	font-size: 1.1rem;
+	color: #B8B8B8;
+	background-color:  #3a3d42;
+    border-bottom:3px solid #B8B8B8;
+    border-left:3px solid #B8B8B8;
+    border-right:3px solid #B8B8B8;
+	width:100%;
+}
+
+/*Sortiranje*/
+#sortiranje{
+    width: 100%;
+    background-color: #E1E1E1;
+    border:2px solid #E1E1E1;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+}
+.sort span p{
+    color:#FBFBFB;
+    font-size: 0.75rem;
+}
+.formasort{
+    margin-top:2.5%;
+    border-radius: 10%;
+    color:black;
+}
+.sort{
+    width:70%;
+    margin:2% auto;
+    /*margin-top:0.5%; */
+}
+#sortiranjeProizvoda{
+    width: 100%;
+}
+.prikaz{
+    color:#FBFBFB;
+}
+h4{
+    font-size: 1.5rem;
+    margin:1% auto;
+    color:#B8B8B8;
+    text-align:center}
+#filter{
+    margin-top:0.5%;
+    width: 7%;
+    min-height: 10px;
+    background-color: #FBFBFB;
+    color:black;
+    box-shadow:1px 1px #FBFBFB;
+}
+#filteri{
+    width:100%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    border: 1px solid #B8B8B8;
+    background-color: #FBFBFB;
+    box-shadow:2px 2px #B8B8B8;
+}
+.jaka{
+    color:#969595;
+    font-size: 2rem;
+}
+.RasponCena p{
+    color:#B8B8B8;
+    font-size: 1.5rem;
+}
+.formaFilter{
+    width: 100%;
+}
+.DugmeFilter1{
+    width:30%;
+    
+    background-color: #ECECEC;
+}
+.dugme1{
+    margin-top:2.5%;
+}
+/*PRODAVNICA*/
+.glavno{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.3rem;
+    margin:0px auto;
+    color:#727272;
+    text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+    margin:0px auto;
+    color:#727272;
+}
+.brendnaslov{
+    font-size: 2rem;
+}
+#NaslovProdavnica{
+    widows: 100%;
+    min-height: 2px;
+    display:flex;
+    justify-content: center;
+}
+#baner{
+    height:500px;
+}
+#slikabaner{
+    height:500px;
+}
+#sredina{
+    width:75%;
+    min-height: 10px;
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+#sredina p{
+    color:red;
+    font-size: 3rem;
+}
+#prodaja{
+    width: 100%;
+    display: flex;
+}
+#prodaja1{
+    width:25%;
+    /*border:1px solid red;*/
+    margin-top:1% ;
+}
+.pretraga{
+    width:100%;
+    
+    margin-top: 2.5%;
+}
+
+.blok{
+    width:20%;
+    margin-top: 1.65%;
+    margin-left:1%;
+    display: flex;
+   flex-direction: column;
+  /* border-radius: 5%;*/
+   background-color: #FBFBFB;
+   border:2px solid #B8B8B8;
+}
+.slika{
+    width: 70%;
+    height:250px;
+    margin: 1% auto;
+    border-radius: 50%;
+    border:1px solid #B8B8B8; 
+
+}
+.dugmici{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    
+}
+button{
+    font-size: 1.28rem;
+    background-color:  #B8B8B8;
+    width:40%;
+    border-radius: 15%;
+    padding: 1%;
+    color:#727272;
+    border:2px solid #B8B8B8;
+    
+    
+
+}
+.sakriven{
+    margin:0.01% auto;
+    font-size: 1.35rem;
+    text-align: center;
+    color:#B8B8B8;
+
+}
+.naslov{
+    font-size: 2rem;
+    margin:0px auto;
+    color:#B8B8B8
+}
+.sakrivenBlok{
+    margin-top: 2%;
+}
+.tabela{
+    /*border: 1px solid #B8B8B8;*/
+    color:#949090;
+    border-radius: 10%;
+}
+.tabela td{
+    border-bottom:1px solid #B8B8B8;
+    border-left:1px solid #B8B8B8;
+    color:#949090;
+    text-align:center;
+    border-radius: 10%;
+}
+/*FORMA  */
+#NaslovPorudzbina{
+    widows: 100%;
+    min-height: 2px;
+    display:flex;
+    justify-content: center;
+}
+
+
+#forma{
+    width:100%;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    border-top: 1px solid #B8B8B8;
+}
+#naruci{
+    width:50%;
+    
+    margin:2% auto;
+    border: 1px solid #B8B8B8;
+    background-color: #FBFBFB;
+    box-shadow:2px 2px #B8B8B8;
+}
+
+
+.formaPolja{
+    width:70%;
+    margin:3% auto;
+    flex-direction: column;
+    
+
+}
+.formaPolja1{
+    width:50%;
+    margin:0.5% auto;
+    flex-direction: column;
+}
+.polja{
+    width: 100%;
+    height: 30px;
+}
+.formaPolja span{
+    font-size: 0.75rem;
+    color:red;
+}
+.formaLista{
+    width:30%;
+    margin:0.5% auto;
+    display: flex;
+    
+    
+}
+.formaLista1{
+    width:50%;
+    margin:0.5% auto;
+    display: flex;
+   
+    
+}
+.formaLista span{
+    margin-left: 0.5%;
+    color:#B8B8B8;
+}
+.formaLista1 span{
+    margin-left: 0.5%;
+    color:#B8B8B8;
+}
+
+.formaLista select{
+    width:75%;
+    margin-left: 6%;
+}
+.formaLista1 select{
+    width:75%;
+    margin-left: 6%;
+}
+.formaDugme{
+    width:70%;
+    margin:0.5% auto;
+    
+}
+.formaDugme1{
+    width:50%;
+    margin:0.5% auto;
+    
+}
+#dugmeForma{
+    border: 1px solid #E1E1E1;
+    margin-left:0px;
+}
+
+.dugme{
+    width: 20%;
+    font-size: 1.2rem;
+    border-radius: 25%;
+    float: right;
+    color:#B8B8B8;
+    border:1px solid #B8B8B8;
+    background-color: rgb(68, 67, 67);/*++++++++++++++++++++++++++++++++++++++++*/
+}
+.greska{
+    border: 1px solid red;
+}
+
+
+.validacijafalse{
+    font-size: 0.85rem;
+    color:red;
+}
+.proslaValidacija{
+    font-size: 1.1rem;
+    color:green;
+}
+
+
+.greskaLista{
+    color:red;
+}
+/*ADRESA PRODAVNICE*/
+#AdresaPRodavnice{
+    width:100%;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    width: 100%;
+    height:700px;
+}
+#podaci{
+    width:30%;
+    margin:1% 1%;
+}
+#podaci p{
+    font-size: 1.05rem;
+    color:#B8B8B8
+}
+/*DUGME ZA POVRATAK NA VRH*/
+
+
+#dugmeGore{
+    position: fixed;
+    width: 30%;
+    height:100px;
+    bottom: 0;
+    left: 0;
+    
+}
+#strelica{
+    font-size: 3rem;
+    color:#B8B8B8
+}
+
+/*AUTOR*/
+#autor{
+    width: 100%;
+    height:400px;
+    margin-top:1%;
+    display: flex;
+    justify-content: center;;
+    background-color:  #A1A1A1;
+    border-top:2px solid #B8B8B8
+}
+figure{
+    width: 30%;
+    height:350px;
+    margin-top:1%;
+    border:3px solid #B8B8B8;
+    border-radius: 5%;
+    
+}
+figcaption{
+    font-size: 1rem;
+    color:#3a3d42;
+    text-align: center;
+}
+figure img{
+    width: 50%;
+    height:90%;
+    margin-left:25%;
+}
+footer{
+    width:100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    background-color: #3a3d42;
+    border-top:2px solid #3a3d42;
+}
+footer p{
+    font-size: 1.5rem;
+    margin:1% 1%;
+    color: #B8B8B8;
+}
+footer p a{
+    color: #B8B8B8;
+}
+footer p a:hover{
+    font-size: 1.64rem;
+}

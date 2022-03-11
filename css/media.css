@@ -1,0 +1,341 @@
+@media only screen and (max-width:1027px){
+    html{
+        font-size: 10px;
+    }
+    .slika{
+        width: 70%;
+        height:200px;
+    }
+    #autor{
+        height: 300px;
+    }
+    figure{
+        width: 35%;
+        height:250px;
+    }
+    #baner{
+        display: none;
+    }
+    #slikabaner{
+        display: none;
+    }
+    #prodaja{
+        display: block;
+    }
+    #sredina{
+        width: 100%;
+    }
+    #prodaja1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .sort{
+        width: 40%;
+    }
+    #filteri{
+        width: 50%;
+        margin-left:25%
+        
+    }
+    #naruci{
+        width: 70%;
+    }
+    
+}
+@media only screen and (max-width:770px){
+    html{
+        font-size: 9px;
+    }
+    #baner{
+        display: none;
+    }
+    #slikabaner{
+        display: none;
+    }
+    #zaglavlje{
+        height:70px;
+        
+    }
+   
+    #meni{
+        width: 18%;
+    }
+    
+    #slider{
+        height:400px;
+    }
+    #sredina{
+        width: 100%;
+    }
+    #prodaja1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .sort{
+        width: 40%;
+    }
+    #filteri{
+        width: 50%;
+        margin-left:25%
+        
+    }
+    #naruci{
+        width: 70%;
+    }
+    
+    .slika{
+        width: 70%;
+        height:160px;
+    }
+    #prodaja{
+        display: block;
+    }
+    button{
+        width:40%;
+    }
+    .formaPolja{
+        width:35%;
+    }
+    .formaLista{
+        width: 35%;
+    }
+    .formaLista span{
+        margin-left: 0.2%;
+    }
+    .formaLista select{
+        width:75%;
+    }
+    .formaDugme{
+        width: 80%;
+    }
+    
+    
+    #AdresaPRodavnice{
+        height: 550px;;
+    }
+    iframe{
+        height:550px;
+    }
+    
+    #autor{
+        height:200px;
+    }
+    figure{
+        height: 150px;
+    }
+    figure img{
+        margin-top: 5%;
+        height: 70%;
+    }
+    footer{
+        height:50px;
+    }
+
+}
+@media only screen and (max-width:610px){
+    html{
+        font-size: 8px;
+    }
+    #zaglavlje{
+        height:50px;
+    }
+    #slider{
+        height: 350px;
+    }
+    .blok{
+        margin-top: 3%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+    .slika{
+        height: 130px;
+    }
+    
+    .formaPolja{
+        width: 55%;
+        margin-top: 1.5%;
+    }
+    .formaLista{
+        width: 55%;
+        margin-top: 1.5%;
+    }
+    .formaLista span{
+        margin-left: 0.2%;
+        font-size: 1.5rem;
+    }
+    .formaLista select{
+        width: 55%;
+    }
+    .formaDugme{
+        width: 55%;
+    }
+    .formaDugme input{
+        width:30%;
+        font-size: 1.7rem;;
+    }
+    .formaPolja span{
+        font-size: 1.7rem;
+    }
+    #listaGreske ul li{
+        font-size: 1.7rem;
+    }
+    #AdresaPRodavnice{
+        height: 450px;;
+    }
+    #autor{
+        height:150px;
+    }
+    figure{
+        height: 130px;
+    }
+
+    
+}
+@media only screen and (max-width:530px){
+    html{
+        font-size: 5px;
+    }
+}
+@media only screen and (max-width:485px){
+    html{
+        font-size: 7px;
+    }
+    #meni{
+        top:2.3rem;
+        left:1.8rem;
+    }
+   
+    #slider{
+        height:300px;
+    }
+    #sredina{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .blok{
+        margin:1.5% auto;
+        width: 35%;
+    }
+    #autor{
+        height:110px;
+    }
+    figure{
+        height:80px;
+    }
+    #dugmeGore{
+        width: 20%;
+    }
+    #AdresaPRodavnice{
+        height:380px;
+    }
+
+}
+ @media only screen and (max-width:435px){
+     html{
+         font-size: 6px;
+     }
+    h2{
+        text-align: center;
+    }
+    #sortiranje{
+        height: 30px;
+    }
+    .pretraga{
+        width: 100%;
+    }
+    table td{
+        font-size: 1.5rem;
+    }
+    #prodaja1{
+        width: 100%;
+    }
+
+} 
+@media only screen and (max-width:385px){
+    html{
+        font-size: 4px;
+    }
+    #sortiranje{
+        height: 25px;
+    }
+    .naruci{
+        width: 100%;
+    }
+    #forma{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:325px){
+    html{
+        font-size: 3px;;
+    }
+    #slider{
+        height:200px;
+    }
+    .slika{
+        height:100px;
+    }
+    .formaPolja1 {
+        width: 80%;
+    }
+    .formaLista1 select{
+        width: 95%;
+    }
+    .formaLista1 span{
+        font-size: 2rem;
+    }
+  
+    .formaDugme1{
+        width:80%;
+    }
+    .formaDugme1 input{
+        width:35%;
+    }
+    .formaPolja{
+        width: 70%;
+    }
+    .polja{
+        width: 100%;
+        height: 15px;
+    }
+    .formaLista select{
+        width: 95%;
+    }
+    .formaDugme{
+        width: 70%;
+    }
+    .sort{
+        width:40%;
+    }
+    .DugmeFilter1{
+        width: 100%;
+        
+        
+    }
+    .dugme1{
+        margin-top:5%
+       
+    }
+    .DugmeFilter1 input{
+        width: 35%;
+    }
+    .formaDugme input{
+        width:35%;
+    }
+    #AdresaPRodavnice{
+        height:250px;
+    }
+    #sortiranje{
+        height: 25px;
+    }
+    button{
+        font-size: 0.25rem;
+    }
+}
